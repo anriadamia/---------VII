@@ -23,6 +23,11 @@ body{
 header{
     padding-top:50px;
 }
+.burgermenu{
+    text-align:right;
+    font-size:28px;
+    display:none;
+}
 header ul{
     width:592px;
     height:70px;
@@ -141,3 +146,108 @@ header ul a:hover{
 .figura p:hover{
     color:#79B331;
 }
+
+@media only screen and (max-width:1024px) {
+body{
+    background-image: url(../img/Rectangle\ 1.png);
+    background-size:160%;
+    background-repeat:no-repeat;
+    background-position-x:-210px;
+    background-position-y:50px
+    
+   }
+   header ul{
+    margin-left:250px;
+    margin-bottom:94px;
+   }
+   .mart{
+    margin-left:540px;
+    }
+    .martkutxedi{
+margin-top:200px;
+        width:580px;
+        height:510px;
+    }
+    .shebrunebuli{
+        transform:none;
+        position:absolute;
+    right:0;
+    }
+  .gero{
+    margin-left:580px;
+    height:510px;
+  }
+ 
+ .figura{
+    width:100%;
+ }
+  .ori{
+    position:absolute;
+    top:100px;
+    left:0px
+  }
+  .otxi{
+    position:absolute;
+    top:300px;
+    left:0px;
+  }
+}
+@media only screen and (max-width:414px) {
+header{
+    height:80px;
+    
+}
+header ul li{
+  display:none;
+   
+}
+.burgermenu{
+    display:block;
+    color:#C4C4C4;
+    text-align:right;
+    margin-right:30px;
+    
+   
+}
+.mart{
+margin:30px auto;
+}
+
+.martkutxedi{
+    margin:40px auto;
+    width:410px;
+    height:640px;
+  
+ }
+.gero{
+    display:none;
+}
+.figura{
+    width:100%;
+    height:200px;
+   
+   
+}
+
+.fotoli{
+    position:absolute;
+    top:0;
+    left:50%;
+}
+
+.figura p{
+   width:85%;
+   height:100px;
+   margin-top:30px;
+   margin-left:30px;
+   font-size:14px;
+   text-align:center;
+   
+}
+.shebrunebuli{
+    transform:none;
+}
+  }
+  
+  
+  
